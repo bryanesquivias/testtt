@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-bg);
+  }
+
+  h1 {
+    margin: 25px;
+  }
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  .chart-wrapper {
+    max-width: 100%;
+    width: 50%; /* Adjust width for desktop */
+    margin-top: 20px; /* Add spacing */
+  }
+  
